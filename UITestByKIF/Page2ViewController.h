@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Page2ViewController.h
 //  UITestByKIF
 //
 //  Created by dolphin on 2015/7/26.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+static NSString  *const kPage2ViewLagel = @"kPage2ViewLagel";
+@interface Page2ViewController : UIViewController
 
 @end
-

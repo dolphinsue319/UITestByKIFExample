@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4A73E8161B64CA7D000573E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73E8151B64CA7D000573E3 /* main.m */; };
 		4A73E8191B64CA7D000573E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73E8181B64CA7D000573E3 /* AppDelegate.m */; };
-		4A73E81C1B64CA7D000573E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73E81B1B64CA7D000573E3 /* ViewController.m */; };
 		4A73E81F1B64CA7D000573E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A73E81D1B64CA7D000573E3 /* Main.storyboard */; };
 		4A73E8211B64CA7D000573E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A73E8201B64CA7D000573E3 /* Images.xcassets */; };
 		4A73E8241B64CA7D000573E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A73E8221B64CA7D000573E3 /* LaunchScreen.xib */; };
 		4A73E8301B64CA7D000573E3 /* UITestByKIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A73E82F1B64CA7D000573E3 /* UITestByKIFTests.m */; };
+		4AEDFC1F1B64D115004FB743 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDFC1E1B64D115004FB743 /* Page1ViewController.m */; };
+		4AEDFC221B64D12A004FB743 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDFC211B64D12A004FB743 /* Page2ViewController.m */; };
+		5A94A8824E07CF9D660ED2D1 /* libPods-UITestByKIFTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7663D8896F125775FCDB242 /* libPods-UITestByKIFTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		4A73E8151B64CA7D000573E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A73E8171B64CA7D000573E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A73E8181B64CA7D000573E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A73E81A1B64CA7D000573E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A73E81B1B64CA7D000573E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A73E81E1B64CA7D000573E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A73E8201B64CA7D000573E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A73E8231B64CA7D000573E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A73E8291B64CA7D000573E3 /* UITestByKIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestByKIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A73E82E1B64CA7D000573E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A73E82F1B64CA7D000573E3 /* UITestByKIFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITestByKIFTests.m; sourceTree = "<group>"; };
+		4AEDFC1D1B64D115004FB743 /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
+		4AEDFC1E1B64D115004FB743 /* Page1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
+		4AEDFC201B64D12A004FB743 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		4AEDFC211B64D12A004FB743 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
+		7EAA09228E31D0F66C337DE7 /* Pods-UITestByKIFTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestByKIFTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITestByKIFTests/Pods-UITestByKIFTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF04779AE3E236453AC107F /* Pods-UITestByKIFTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestByKIFTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITestByKIFTests/Pods-UITestByKIFTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7663D8896F125775FCDB242 /* libPods-UITestByKIFTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITestByKIFTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A94A8824E07CF9D660ED2D1 /* libPods-UITestByKIFTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				4A73E8121B64CA7D000573E3 /* UITestByKIF */,
 				4A73E82C1B64CA7D000573E3 /* UITestByKIFTests */,
 				4A73E8111B64CA7D000573E3 /* Products */,
+				6856E33653121DF68B8802B2 /* Pods */,
+				AA10DBA4A3CD56DFD17BA4EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +93,10 @@
 			children = (
 				4A73E8171B64CA7D000573E3 /* AppDelegate.h */,
 				4A73E8181B64CA7D000573E3 /* AppDelegate.m */,
-				4A73E81A1B64CA7D000573E3 /* ViewController.h */,
-				4A73E81B1B64CA7D000573E3 /* ViewController.m */,
+				4AEDFC1D1B64D115004FB743 /* Page1ViewController.h */,
+				4AEDFC1E1B64D115004FB743 /* Page1ViewController.m */,
+				4AEDFC201B64D12A004FB743 /* Page2ViewController.h */,
+				4AEDFC211B64D12A004FB743 /* Page2ViewController.m */,
 				4A73E81D1B64CA7D000573E3 /* Main.storyboard */,
 				4A73E8201B64CA7D000573E3 /* Images.xcassets */,
 				4A73E8221B64CA7D000573E3 /* LaunchScreen.xib */,
@@ -119,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6856E33653121DF68B8802B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA09228E31D0F66C337DE7 /* Pods-UITestByKIFTests.debug.xcconfig */,
+				8EF04779AE3E236453AC107F /* Pods-UITestByKIFTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA10DBA4A3CD56DFD17BA4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7663D8896F125775FCDB242 /* libPods-UITestByKIFTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A73E8361B64CA7D000573E3 /* Build configuration list for PBXNativeTarget "UITestByKIFTests" */;
 			buildPhases = (
+				335A498A4C2E5AB488BF564C /* Check Pods Manifest.lock */,
 				4A73E8251B64CA7D000573E3 /* Sources */,
 				4A73E8261B64CA7D000573E3 /* Frameworks */,
 				4A73E8271B64CA7D000573E3 /* Resources */,
+				E9A486A31B5C230336DF2FA7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +245,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		335A498A4C2E5AB488BF564C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A486A31B5C230336DF2FA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITestByKIFTests/Pods-UITestByKIFTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A73E80C1B64CA7D000573E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A73E81C1B64CA7D000573E3 /* ViewController.m in Sources */,
 				4A73E8191B64CA7D000573E3 /* AppDelegate.m in Sources */,
 				4A73E8161B64CA7D000573E3 /* main.m in Sources */,
+				4AEDFC221B64D12A004FB743 /* Page2ViewController.m in Sources */,
+				4AEDFC1F1B64D115004FB743 /* Page1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +430,7 @@
 		};
 		4A73E8371B64CA7D000573E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAA09228E31D0F66C337DE7 /* Pods-UITestByKIFTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +450,7 @@
 		};
 		4A73E8381B64CA7D000573E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF04779AE3E236453AC107F /* Pods-UITestByKIFTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +483,7 @@
 				4A73E8351B64CA7D000573E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A73E8361B64CA7D000573E3 /* Build configuration list for PBXNativeTarget "UITestByKIFTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +492,7 @@
 				4A73E8381B64CA7D000573E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
